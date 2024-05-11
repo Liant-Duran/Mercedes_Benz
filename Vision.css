@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #036;
+    padding: 20px;
+}
+
+
+
+
+
+/*Cabecera*/
+header {
+    max-width: 1000px;
+    min-height: 130px;
+    margin: 0 auto;
+    border-radius: 20px 20px 0 0;
+    background: linear-gradient(to bottom, #c9c9c9 1%, #e5e5e5 9%, #c9c9c9 100%, #e5e5e5 100%);
+}
+
+#logo {
+    margin-left: 20px;
+}
+/*Cabecera*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Menu-1*/
+#menu-1 {
+    max-width: 1000px;
+    min-height: 130px;
+    background: #000;
+    margin: 0 auto;
+}
+
+#menu-1 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#menu-1 a {
+    color: #fff;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background: #000;
+    font-size: 20px;
+}
+
+#menu-1 a:hover {
+    background: #069;
+}
+
+#menu-1 ul ul {
+    display: none;
+    position: absolute;
+}
+
+#menu-1 ul li:hover ul {
+    display: block;
+}
+
+#banner {
+    max-width: 1000px;
+    min-height: 250px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+#contenedor {
+    max-width: 1000px;
+    min-height: 700px;
+    background: #fff;
+    margin: 0 auto;
+}
+/*Menu-1*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Contenido*/
+#contenido {
+    width: 700px;
+    min-height: 700px;
+    background: #fff;
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/*Menu-2*/
+#Menu-v {
+    width: 300px;
+    min-height: 700px;
+    background: #ccc;
+    float: left;
+} 
+
+#Menu-v ul {
+    list-style: none;
+    padding: 10px;
+}
+
+#Menu-v a { 
+    display: block;
+    color: #000000;
+    background: #9c9a9a;
+    padding: 10px;
+    text-decoration: none;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    font-family: arial;
+    font-size: 18px;
+}
+
+#Menu-v a:hover {
+    background: #069;
+}
+/*Menu-2*/
+
+
+
+
+
+
+#contenido h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#contenido p {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+#contenido img{
+margin: 10px;
+
+}
+/*Contenido*/
+
+
+
+
+
+
+.image-idiot {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+/*Pie de pagina*/
+footer {
+    max-width: 1000px;
+    background: #000000;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 18px;
+}
+/*Pie de pagina*/
